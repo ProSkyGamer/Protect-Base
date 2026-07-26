@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bda9050a4b4f69aad2019be4c41c35, type: 3}
+  m_Name: EnemyStatsSO
+  m_EditorClassIdentifier: 
+  AllBaseEnemyStats:
+  - EnemyType: 0
+    AllHealthValues:
+    - StatSize: 0
+      StatValue: 8
+    - StatSize: 1
+      StatValue: 12
+    - StatSize: 2
+      StatValue: 20
+    AllAtkValues:
+    - StatSize: 0
+      StatValue: 1
+    - StatSize: 1
+      StatValue: 1.2
+    - StatSize: 2
+      StatValue: 2
+    AllSpeedValues:
+    - StatSize: 0
+      StatValue: 3.5
+    - StatSize: 1
+      StatValue: 4.5
+    - StatSize: 2
+      StatValue: 5.5
+    MinPathPointCount: 2
+    MaxEnemyPathPoint: -1
+    MaxEnemyWaveCount: 5
+    EnemySummonsCount: 0
+  - EnemyType: 1
+    AllHealthValues:
+    - StatSize: 0
+      StatValue: 16
+    - StatSize: 1
+      StatValue: 24
+    - StatSize: 2
+      StatValue: 32
+    AllAtkValues:
+    - StatSize: 0
+      StatValue: 30
+    - StatSize: 1
+      StatValue: 50
+    - StatSize: 2
+      StatValue: 70
+    AllSpeedValues:
+    - StatSize: 0
+      StatValue: 7
+    - StatSize: 1
+      StatValue: 9
+    - StatSize: 2
+      StatValue: 10
+    MinPathPointCount: 2
+    MaxEnemyPathPoint: -1
+    MaxEnemyWaveCount: 0
+    EnemySummonsCount: 4
+  - EnemyType: 2
+    AllHealthValues:
+    - StatSize: 0
+      StatValue: 8
+    AllAtkValues:
+    - StatSize: 0
+      StatValue: 75
+    AllSpeedValues:
+    - StatSize: 0
+      StatValue: 4
+    MinPathPointCount: 2
+    MaxEnemyPathPoint: 2
+    MaxEnemyWaveCount: 0
+    EnemySummonsCount: 0
+  - EnemyType: 3
+    AllHealthValues:
+    - StatSize: 0
+      StatValue: 4
+    AllAtkValues:
+    - StatSize: 0
+      StatValue: 50
+    AllSpeedValues:
+    - StatSize: 0
+      StatValue: 5
+    MinPathPointCount: 2
+    MaxEnemyPathPoint: 2
+    MaxEnemyWaveCount: 0
+    EnemySummonsCount: 0
+  - EnemyType: 4
+    AllHealthValues:
+    - StatSize: 0
+      StatValue: 12
+    AllAtkValues:
+    - StatSize: 0
+      StatValue: 100
+    AllSpeedValues:
+    - StatSize: 0
+      StatValue: 3
+    MinPathPointCount: 2
+    MaxEnemyPathPoint: 2
+    MaxEnemyWaveCount: 0
+    EnemySummonsCount: 0
+  EnemySoldierAttackingFiringMachineRadius: 60
+  EnemySoldierShootingTimeCooldown: 15
+  EnemySoldierShootingTimeOnPointReached: 5
+  EnemySoldierShootingBulletInterval: 0.25
+  EnemySoldierBulletsAccuracy: 0.375
+  MaxBulletDirectionDeviation: 5
+  BreakableFenceLayerMask:
+    serializedVersion: 2
+    m_Bits: 1024
